@@ -2486,6 +2486,7 @@ const (
 	RoundedGraphStyle GraphStyle = "rounded"
 	FilledGraphStyle  GraphStyle = "filled"
 	StripedGraphStyle GraphStyle = "striped"
+	InvisibleGraphStyle GraphStyle = "invis"
 )
 
 type NodeStyle string
@@ -2500,6 +2501,7 @@ const (
 	FilledNodeStyle    NodeStyle = "filled"
 	StripedNodeStyle   NodeStyle = "striped"
 	WedgesNodeStyle    NodeStyle = "wedged"
+	InvisibleNodeStyle    NodeStyle = "invis"
 )
 
 type EdgeStyle string
